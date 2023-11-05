@@ -1,0 +1,99 @@
+.btn-all-categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 176px;
+  height: 50px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+  cursor: pointer;
+  padding: 14px 28px;
+  border-radius: 15px;
+  border: 1px solid var(--btn-all-categories);
+  background-color: transparent;
+  color: var(--btn-all-categories);
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-all-categories:hover,
+.btn-all-categories:focus {
+  color: var(--theme-light);
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.categories-list {
+  height: 198px;
+  overflow-y: scroll;
+}
+
+.categories-list::-webkit-scrollbar {
+  width: 8px;
+  height: 116px;
+}
+
+.categories-list::-webkit-scrollbar-thumb {
+  background-color: var(--text-category);
+  border-radius: 12px;
+}
+
+.btn-categories-item {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.29;
+  cursor: pointer;
+  margin-bottom: 18px;
+  border: none;
+  background-color: transparent;
+  color: var(--text-category);
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-categories-item:hover,
+.btn-categories-item:focus {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .btn-all-categories {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .btn-categories-item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 24px;
+  }
+
+  .categories-list {
+    width: 176px;
+    height: 416px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .btn-all-categories {
+    margin-bottom: 42px;
+    margin-top: 25px;
+  }
+  .categories-list {
+    width: 235px;
+  }
+}

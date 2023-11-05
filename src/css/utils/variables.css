@@ -1,0 +1,27 @@
+:root {
+  --body-color: #fff;
+  --mobail-modal: #9bb537;
+  --theme-light: #f8f8f8;
+  --theme-dark: #1e1e1e;
+  --accent-color: #9bb537;
+  --dark-text-title: #000000;
+  --white-text-title: #ffffff;
+  --dark-text: #050505;
+  --input-color-theme-dark: rgba(255, 255, 255, 0.5);
+  --input-color-theme-light: rgba(5, 5, 5, 0.3);
+  --stars-color: #eea10c;
+  --recipes-text: rgba(5, 5, 5, 0.8);
+  --bordes-radius-slick: rgba(155, 181, 55, 0.3);
+  --modal-rating-theme-light: #47906a;
+  --background-color-recipes: rgba(46, 47, 66, 0.4);
+  --modal-measure-recipes: rgba(5, 5, 5, 0.5);
+  --modal-name-ingradient: rgba(5, 5, 5, 0.1);
+  --modal-hashtag-item: rgba(5, 5, 5, 0.2);
+  --modal-recipe-instruction: rgba(5, 5, 5, 0.8);
+  --gal-text-col: rgba(5, 5, 5, 0.50);
+  --gal-form-border-col: rgba(5, 5, 5, 0.2);
+  --input-gall-search: rgba(255, 255, 255, 0.20);
+  --btn-all-categories: rgba(5, 5, 5, 0.5);
+  --text-category: rgba(5, 5, 5, 0.18);
+  --hero-bg-slide: #050505;
+}

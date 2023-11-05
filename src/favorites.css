@@ -1,0 +1,105 @@
+@import './css/base/common.css';
+@import './css/base/container.css';
+@import './css/utils/variables.css';
+@import './css/layout/header.css';
+@import './css/layout/hero.css';
+@import './css/layout/categories.css';
+@import './css/layout/popular-recipes.css';
+@import './css/layout/gallery.css';
+@import './css/layout/modal-recipes.css';
+@import './css/layout/modal-rating.css';
+@import './css/layout/modal-order.css';
+@import './css/layout/tui.css';
+
+.favorites-section {
+  overflow: hidden;
+}
+.favorites-bg {
+  display: block;
+  margin-bottom: 64px;
+}
+
+.favorites-icon {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.favorites-error-text {
+  margin: auto;
+  max-width: 335px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 1.28;
+  color: var(--dark-text);
+}
+
+.js-favorites-wrapper {
+  display: flex;
+  text-wrap: nowrap;
+  gap: 15px;
+  margin-bottom: 32px;
+}
+.favorites-btn {
+  margin-bottom: 24px;
+  display: block;
+  min-width: 67px;
+  height: 46px;
+  padding: 14px 18px;
+  border-radius: 15px;
+  border: 1px solid var(--gal-form-border-col);
+  background-color: transparent;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  color: var(--gal-form-border-col);
+  transition: background-color 250ms linear, color 250ms linear,
+    border 250ms linear;
+}
+
+.favorites-btn:hover,
+.favorites-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--theme-light);
+  border: transparent;
+  cursor: pointer;
+}
+
+.favorites-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.favorites-bg {
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-section {
+    padding-bottom: 100px;
+  }
+
+  .favorites-bg {
+    display: block;
+    padding-top: 50px;
+  }
+  .favorites-icon {
+    margin-bottom: 32px;
+  }
+  .favorites-error-text {
+    max-width: 481px;
+
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .favorites-section {
+    padding-top: 40px;
+  }
+}

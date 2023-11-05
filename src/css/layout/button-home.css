@@ -1,0 +1,41 @@
+.home-anchor {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+.icon-angle {
+  height: 48px;
+  width: 48px;
+  stroke-width: 2px;
+  fill: var(--input-color-theme-light);
+}
+
+.icon-angle:focus {
+  fill: var(--accent-color);
+}
+@media screen and (min-width: 768px) {
+  .icon-angle {
+    width: 64px;
+    height: 64px;
+  }
+  .home-anchor {
+    bottom: 30px;
+    right: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .home-anchor {
+    bottom: 40px;
+    right: 60px;
+  }
+  .icon-angle:hover {
+    fill: var(--accent-color);
+  }
+}
